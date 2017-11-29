@@ -5,7 +5,7 @@ _onReleaseClamps =
 {
 	params ["_floater", "_caller", "_actionId"];
 
-	[[_floater, _caller, _actionId], "bub\bub_fnc_releaseVehicleClamps.sqf"] remoteExec ["execVM", _caller];
+	[[_floater, _caller, _actionId], "bub\bub_vm_sv_releaseVehicleClamps.sqf"] remoteExec ["execVM", _caller];
 	
 };
 
