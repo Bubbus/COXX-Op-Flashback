@@ -12512,7 +12512,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[] spawn {" \n "" \n "[[""ftl"",""ar"",""aar"",""aar"",""smg"",""aar""],""beachhead_charge_1"",850,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""ftl"",""smg"",""rif"",""rif"",""rif"",""rif""],""beachhead_charge_2"",800,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""beachhead_charge_3"",""beachhead_1"",""LIB_SdKfz222"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "};}";
+				onActivation="call{[] spawn {" \n "" \n "[[""sl"",""ar"",""aar"",""aar"",""smg"",""aar""],""beachhead_charge_1"",850,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""sl"",""smg"",""rif"",""rif"",""rif"",""rif""],""beachhead_charge_2"",800,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""beachhead_charge_3"",""beachhead_1"",""LIB_SdKfz222"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "};}";
 				sizeA=150;
 				sizeB=150;
 				activationBy="WEST SEIZED";
@@ -18076,7 +18076,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[] spawn {" \n "" \n "[[""ftl"",""ar"",""aar"",""aar"",""smg"",""aar""],""beachhead_charge_4"",450,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""ftl"",""smg"",""rif"",""rif"",""rif"",""rif""],""beachhead_charge_5"",400,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "};}";
+				onActivation="call{[] spawn {" \n "" \n "[[""sl"",""ar"",""aar"",""aar"",""smg"",""aar""],""beachhead_charge_4"",450,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""sl"",""smg"",""rif"",""rif"",""rif"",""rif""],""beachhead_charge_5"",400,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "};}";
 				sizeA=100;
 				sizeB=100;
 				activationBy="WEST SEIZED";
@@ -18251,7 +18251,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[] spawn {" \n "" \n "[[""ftl"",""ar"",""aar"",""aar"",""smg"",""aar""],""villagewest_charge_1"",600,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""ftl"",""smg"",""rif"",""rif"",""rif"",""rif""],""villagewest_charge_2"",600,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""villagewest_charge_3"",""villagewest"",""LIB_SdKfz234_2"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "};}";
+				onActivation="call{[] spawn {" \n "" \n "[[""sl"",""ar"",""aar"",""aar"",""smg"",""aar""],""villagewest_charge_1"",600,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""sl"",""smg"",""rif"",""rif"",""rif"",""rif""],""villagewest_charge_2"",600,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""villagewest_charge_3"",""villagewest"",""LIB_SdKfz234_2"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "};}";
 				sizeA=150;
 				sizeB=150;
 				activationBy="WEST SEIZED";
@@ -18311,7 +18311,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[] spawn {" \n "" \n "[[""ftl"",""ar"",""aar"",""aar"",""smg"",""aar""],""villageeast_charge_1"",600,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""ftl"",""smg"",""rif"",""rif"",""rif"",""rif""],""villageeast_charge_2"",600,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""villageeast_charge_3"",""villageeast"",""LIB_SdKfz234_2"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "};}";
+				onActivation="call{[] spawn {" \n "" \n "[[""sl"",""ar"",""aar"",""aar"",""smg"",""aar""],""villageeast_charge_1"",600,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""sl"",""smg"",""rif"",""rif"",""rif"",""rif""],""villageeast_charge_2"",600,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""villageeast_charge_3"",""villageeast"",""LIB_SdKfz234_2"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "};}";
 				sizeA=150;
 				sizeB=150;
 				activationBy="WEST SEIZED";
@@ -18366,7 +18366,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[] spawn {" \n "" \n "[[""ftl"",""ar"",""aar"",""aar"",""smg"",""aar""],""town_charge_1"",700,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""ftl"",""smg"",""rif"",""rif"",""rif"",""rif""],""town_charge_2"",700,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""town_charge_3"",""town"",""LIB_SdKfz234_2"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "sleep 240;" \n "" \n "[[""ftl"",""ar"",""aar"",""aar"",""smg"",""aar""],""town_charge_3"",700,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""town_charge_1"",""town"",""LIB_SdKfz234_2"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""town_charge_2"",""town"",""LIB_StuG_III_G"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "" \n "};}";
+				onActivation="call{[] spawn {" \n "" \n "[[""sl"",""ar"",""aar"",""aar"",""smg"",""aar""],""town_charge_1"",700,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""sl"",""smg"",""rif"",""rif"",""rif"",""rif""],""town_charge_2"",700,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""town_charge_3"",""town"",""LIB_SdKfz234_2"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "sleep 240;" \n "" \n "[[""sl"",""ar"",""aar"",""aar"",""smg"",""aar""],""town_charge_3"",700,""opf_f"",east] spawn ca_fnc_spawncharge;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""town_charge_1"",""town"",""LIB_SdKfz234_2"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "sleep 4;" \n "" \n "[[""crew-smg"",""crew"",""crew""],""town_charge_2"",""town"",""LIB_StuG_III_G"",""opf_f"",east] spawn ca_fnc_spawnvehicleattack;" \n "" \n "" \n "};}";
 				sizeA=350;
 				sizeB=150;
 				activationBy="WEST SEIZED";
