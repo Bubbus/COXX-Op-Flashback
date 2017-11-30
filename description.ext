@@ -528,39 +528,39 @@ class CfgFunctions
 		{
 			class addLaptopAction
 			{
-				file = "bub\bub_fnc_addLaptopAction.sqf"
+				file = "bub\bub_fnc_addLaptopAction.sqf";
 			};
 			class addDefuseAction
 			{
-				file = "bub\bub_fnc_addDefuseAction.sqf"
+				file = "bub\bub_fnc_addDefuseAction.sqf";
 			};
-			class makeGoBoom
+			class doTimeTravel
 			{
-				file = "bub\bub_fnc_makeGoBoom.sqf"
+				file = "bub\bub_fnc_doTimeTravel.sqf";
 			};
 			class turnIntoBomb
 			{
-				file = "bub\bub_fnc_turnIntoBomb.sqf"
+				file = "bub\bub_fnc_turnIntoBomb.sqf";
 			};
 			class explosionsListener
 			{
-				file = "bub\bub_fnc_explosionsListener.sqf"
+				file = "bub\bub_fnc_explosionsListener.sqf";
 			};
 			class explosionCleanup
 			{
-				file = "bub\bub_fnc_explosionCleanup.sqf"
+				file = "bub\bub_fnc_explosionCleanup.sqf";
 			};
 			class attachMarkerRefs
 			{
-				file = "bub\bub_fnc_attachMarkerRefs.sqf"
+				file = "bub\bub_fnc_attachMarkerRefs.sqf";
 			};
-			class createBombsTimer
+			class createTimeTravelTimer
 			{
-				file = "bub\bub_fnc_createBombsTimer.sqf"
+				file = "bub\bub_fnc_createTimeTravelTimer.sqf";
 			};
 			class startSirenSound
 			{
-				file = "bub\bub_fnc_startSirenSound.sqf"
+				file = "bub\bub_fnc_startSirenSound.sqf";
 			};
 			class attachKeepOrient
 			{
@@ -589,6 +589,14 @@ class CfgFunctions
 			class addFloaterAction
 			{
 				file = "bub\bub_fnc_addFloaterAction.sqf";
+			};
+			class deleteOnTimeTravel
+			{
+				file = "bub\bub_fnc_deleteOnTimeTravel.sqf";
+			};
+			class showOnTimeTravel
+			{
+				file = "bub\bub_fnc_showOnTimeTravel.sqf";
 			};
 		};
 	};

@@ -8,9 +8,9 @@ waitUntil
 	
 	_curTime = daytime;
 	
-	(_curTime >= 13)
+	(_curTime >= 21.35)
 	
 };
 
 
-[] call bub_fnc_makeGoBoom;
+[] call bub_fnc_doTimeTravel;
