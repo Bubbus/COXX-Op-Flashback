@@ -602,6 +602,10 @@ class CfgFunctions
 			{
 				file = "bub\bub_fnc_addShipMovement.sqf";
 			};
+			class deleteAfterSeconds
+			{
+				file = "bub\bub_fnc_deleteAfterSeconds.sqf";
+			};
 		};
 	};
 };

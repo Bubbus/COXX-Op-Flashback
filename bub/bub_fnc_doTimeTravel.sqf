@@ -37,8 +37,9 @@ if (!isServer) exitWith {};
 		(leader _group) moveInDriver _vehicle;
 		
 		{ if !(leader _group == _x) then {_x moveInCargo _vehicle;}; } forEach (units _group);
-		
 		{ if !(driver _vehicle == _x) then { _x disableAI "ALL"; }; } forEach (units _group);
+		
+		[_vehicle, _group, 360] call bub_fnc_deleteAfterSeconds;
 		
 		sleep 0.25;
 	};
