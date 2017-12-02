@@ -27,7 +27,7 @@ class Header
 
 onLoadName = "Operation Flashback";
 onLoadMission = "Where we're going, we don't need roads.";
-author = "By Bubbus";
+author = "Bubbus";
 loadScreen = "ca_logo_large.jpg";
 
 // ============================================================================================
@@ -597,6 +597,10 @@ class CfgFunctions
 			class showOnTimeTravel
 			{
 				file = "bub\bub_fnc_showOnTimeTravel.sqf";
+			};
+			class addShipMovement
+			{
+				file = "bub\bub_fnc_addShipMovement.sqf";
 			};
 		};
 	};

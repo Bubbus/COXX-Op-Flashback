@@ -2,6 +2,10 @@ if (!isServer) exitWith {};
 
 [] spawn
 {
+	missionNamespace setVariable ["bub_timeTravelled", 1];
+
+	[[], "bub\bub_vm_cl_applyTimeTravelFx.sqf"] remoteExec ["execVM", 0];
+
 	sleep 0.25;
 
 	setDate [1940, 8, 12, 12, 32];
@@ -25,7 +29,7 @@ if (!isServer) exitWith {};
 	
 	for [{_i=1}, {_i <= 8}, {_i = _i+1}] do
 	{
-		_grpVeh = [["ftl","r","r","r","r"],"evac_" + str _i,"evac_goto","LIB_LCVP","ind_f",independent] call ca_fnc_spawnvehicleattack;
+		_grpVeh = [["smg","ar","rif","rif","rif","rif"],"evac_" + str _i,"evac_goto","LIB_LCVP","ind_f",independent] call ca_fnc_spawnvehicleattack;
 		
 		_group = _grpVeh select 0;
 		_vehicle = _grpVeh select 1;
@@ -38,8 +42,6 @@ if (!isServer) exitWith {};
 		
 		sleep 0.25;
 	};
-	
-	
 	
 }
 
