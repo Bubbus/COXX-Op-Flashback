@@ -37,7 +37,7 @@ _unitSide = side player;
 // The following block of code executes only if the player is the current host
 // it automatically includes a file which contains the appropriate briefing data.
 
-if (serverCommandAvailable "#kick") then {
+if (serverCommandAvailable "#kick" or {_unitSide == sideLogic}) then {
 
 #include "f\briefing\f_briefing_admin.sqf"
 

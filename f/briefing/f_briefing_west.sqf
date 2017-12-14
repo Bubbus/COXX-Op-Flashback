@@ -32,7 +32,7 @@
 
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
-*** Insert mission credits here. ***
+Made by Bubbus.
 <br/><br/>
 Made with F3 (http://www.ferstaberinde.com/f3/en/)
 "]];
@@ -44,7 +44,8 @@ Made with F3 (http://www.ferstaberinde.com/f3/en/)
 
 _adm = player createDiaryRecord ["diary", ["Administration","
 <br/>
-*** Insert information on administration and logistics here. ***
+Don't drive the vehicles until the landing craft have beached.<br/>
+Landing craft should only use the 'Release vehicle clamps' action once beached.<br/>
 "]];
 
 // ====================================================================================
@@ -56,19 +57,19 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
 COMMANDER'S INTENT
 <br/>
-*** Insert very short summary of plan here. ***
+Ask the commander.
 <br/><br/>
 MOVEMENT PLAN
 <br/>
-*** Insert movement instructions here. ***
+Trust the commander.
 <br/><br/>
 FIRE SUPPORT PLAN
 <br/>
-*** Insert fire support instructions here. ***
+Don't shoot the commander.
 <br/><br/>
 SPECIAL TASKS
 <br/>
-*** Insert instructions for specific units here. ***
+Obey the commander.
 "]];
 
 // ====================================================================================
@@ -78,7 +79,19 @@ SPECIAL TASKS
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. ***
+According to current history, French forces have been containing the German invasion, but have been steadily pushed back through their own lands. They now fight from the shores of historical Omaha Beach, being evacuated by their navy with British assistance to the UK. The bulk of the force is sailing to safety, but some remain to delay the invaders - they must be kept from the beach before your arrival.<br/>
+<br/>
+Ready to make the jump, Company TIMELORD is mounted in Mk10 LCUs arrayed in front of the USS Zemeckis. The Zemeckis' nuclear reactor, being the only power source in the region capable of powering the time pylons, has been brought close to the shores of historical Omaha Beach.<br/>
+<br/>
+<br/>
+MISSION<br/>
+<br/>
+> Move the landing craft between the pylons, facing the beach, before 21:23 PM.<br/>
+> Travel to 1940 and assault the beach, securing the beachheads and moving to Phase Line 1.<br/>
+> A radio jammer was transported previously to deny German command of accurate battle reports. If Hitler hears of our arrival, he may flee. Visit the jammer and ensure it is not destroyed by German forces.<br/>
+> Proceed past Phase Line 1, capturing Le Bray and its neighbouring villages.<br/>
+> German forces are still pouring into the area. Defend against any forces and move past Phase Line 2 when clear to proceed.<br/>
+> Hitler's location at this time is known from history. Move to the farmhouses and REMOVE FUHRER.<br/>
 "]];
 
 // ====================================================================================
@@ -88,15 +101,19 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general information about the situation here.***
-<br/><br/>
-ENEMY FORCES
+Recent advances in scientific understanding unveiled a new kind of particle, linked to its past by a quantum event.  This discovery would be useless if not for a simple fact: huge quantities of energy can be applied to the particle, entangling itself with with any nearby objects.  Time travel is possible.<br/>
 <br/>
-*** Insert information about enemy forces here.***
-<br/><br/>
-FRIENDLY FORCES
+Under the strictest secrecy, this knowledge was used to develop the first time machines.  Two particles were captured, and their links were traced.  The first would return to the 7th of May, 1940.  The next, the 12th of August.  Before the end of the day, news had reached NATO and the decision was almost instantly made.<br/>
 <br/>
-*** Insert information about friendly forces here.***
+We're going to kill Hitler.<br/>
+<br/>
+The plan was drawn out within three days, and by the end of the first week the plan was ready to execute.  The plan is now well in motion and guarded by an entire eighth of NATO's military might - and part one went exactly as planned.<br/>
+<br/>
+In the morning of July 5th, 2035 an agent was transported to the 7th of May, 1940.  He was a French national, equipped with proof of the future of the world if history was left to run its course.  His mission was:  Convince France to hold fast, and contain the German invasion within itself until mid-August.<br/>
+<br/>
+The agent had succeeded.  What still wasn't clear was if the second part of the plan would succeed.  The announcement of the plan has sent the world into chaos - it's important to wrap the operation up and return the world's past to certainty.  <br/>
+<br/>
+Part two of the plan can't come sooner, but it's still to come.  You're about to make history - and make it yours.<br/>
 "]];
 
 // ====================================================================================
