@@ -614,6 +614,10 @@ class CfgFunctions
 			{
 				file = "bub\zeus_ui\bub_fnc_spawnVehicleGroup.sqf";
 			};
+			class registerZeusPlayer
+			{
+				file = "bub\bub_fnc_registerZeusPlayer.sqf";
+			};
 			class acreSetup
 			{
 				file = "bub\bub_fnc_acreSetup.sqf";
