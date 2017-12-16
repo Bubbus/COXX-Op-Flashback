@@ -7,4 +7,4 @@ _unit addEventHandler ["HandleDamage", {false}];
 _unit addCuratorEditableObjects [(vehicles + allUnits), true];
 _unit removeCuratorEditableObjects [_unit, true];
 
-[[_unit], "bub\bub_vm_cl_zeusDeployment.sqf"] remoteExec ["execVM", _unit];
+[[_unit], "bub\bub_vm_cl_zeusDeployment.sqf"] remoteExec ["execVM", _unit, true];

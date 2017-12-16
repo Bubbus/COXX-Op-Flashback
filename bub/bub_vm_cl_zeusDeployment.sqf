@@ -28,8 +28,7 @@ _unit addAction ["Add unit-spawner to Zeus mode", {execVM "bub\zeus_ui\bub_fnc_z
 			if (zeus_deployment) then
 			{
 				zeus_camPosLast set [2, 0];
-				_unit enableSimulationGlobal true;
-				_unit hideObjectGlobal false;
+				[_unit, true] remoteExec ["bub_fnc_activateZeusPlayer", 2];
 			}
 			else
 			{
@@ -45,8 +44,7 @@ _unit addAction ["Add unit-spawner to Zeus mode", {execVM "bub\zeus_ui\bub_fnc_z
 			!(getPos curatorCamera isEqualTo [0,0,0])
 		};
 		
-		_unit enableSimulationGlobal false;
-		_unit hideObjectGlobal true;
+		[_unit, false] remoteExec ["bub_fnc_activateZeusPlayer", 2];
 		
 		while {!(getPos curatorCamera isEqualTo [0,0,0])} do 
 		{

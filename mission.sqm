@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3327.8433,189.25827,3921.938};
-		dir[]={-0.57710129,-0.31678981,-0.75289363};
-		up[]={-0.19277853,0.94846499,-0.25149956};
-		aside[]={-0.7937547,6.0489401e-007,0.60841537};
+		pos[]={4329.8423,186.09039,5110.3809};
+		dir[]={-0.76743454,-0.29917249,0.56726211};
+		up[]={-0.24066055,0.95416701,0.17788991};
+		aside[]={0.59446669,2.7334318e-007,0.80424899};
 	};
 };
 binarizationWanted=0;
@@ -18363,7 +18363,7 @@ class Mission
 			};
 			id=1914;
 			type="Land_WavePowerPlant_F";
-			atlOffset=6.0833445;
+			atlOffset=7.7370744;
 		};
 		class Item199
 		{
@@ -18381,7 +18381,7 @@ class Mission
 			};
 			id=1920;
 			type="Land_dp_bigTank_F";
-			atlOffset=6.5322313;
+			atlOffset=4.5012012;
 		};
 		class Item200
 		{
@@ -18511,7 +18511,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3754.3674,-5.0510149,4988.2637};
+				position[]={3754.3674,-5.0510159,4988.2637};
 				angles[]={0,0.5642873,0};
 			};
 			side="Empty";
@@ -18524,7 +18524,7 @@ class Mission
 			};
 			id=1940;
 			type="Land_WavePowerPlant_F";
-			atlOffset=-9.2944221;
+			atlOffset=-9.2944241;
 		};
 		class Item208
 		{
@@ -18619,7 +18619,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3796.6235,-5.1861887,5181.4756};
+				position[]={3796.6235,-5.1861897,5181.4756};
 				angles[]={0,0.5642873,0};
 			};
 			side="Empty";
@@ -18668,7 +18668,7 @@ class Mission
 			};
 			id=1948;
 			type="Land_WavePowerPlant_F";
-			atlOffset=11.321001;
+			atlOffset=11.320999;
 		};
 		class Item216
 		{
@@ -18740,7 +18740,7 @@ class Mission
 			};
 			id=1952;
 			type="Land_PowerLine_distributor_F";
-			atlOffset=9.1534424;
+			atlOffset=5.6514091;
 		};
 		class Item220
 		{
@@ -20847,6 +20847,7 @@ class Mission
 				};
 			};
 			id=2010;
+			atlOffset=-0.0143013;
 		};
 		class Item247
 		{
@@ -20863,6 +20864,7 @@ class Mission
 			};
 			id=2012;
 			type="LIB_SdKfz251";
+			atlOffset=-0.0143013;
 		};
 		class Item248
 		{
@@ -26059,11 +26061,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3789.8616,20.260101,5298.2412};
-						angles[]={0,3.7871869,0};
+						position[]={3789.8621,20.260052,5298.2407};
+						angles[]={0,3.78719,0};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						skill=1;
@@ -26171,6 +26173,7 @@ class Mission
 					};
 					id=2159;
 					type="B_Soldier_A_F";
+					atlOffset=25.600998;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26238,6 +26241,7 @@ class Mission
 			{
 			};
 			id=2158;
+			atlOffset=25.600998;
 		};
 		class Item297
 		{
