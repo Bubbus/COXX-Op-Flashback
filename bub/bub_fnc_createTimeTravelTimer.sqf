@@ -10,7 +10,7 @@ if (!isServer) exitWith {};
 		
 		_curTime = daytime;
 		
-		(_curTime >= (21 + 23/60))
+		(_curTime >= (21 + 21/60))
 		
 	};
 

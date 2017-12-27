@@ -20,6 +20,7 @@
 	"dynamicBlur" ppEffectCommit 10;
 	
 	sleep 10;
+	"dynamicBlur" ppEffectEnable false;   
 	
 	["OPERATION FLASHBACK", "Omaha Beach", "12/08/1940"] spawn BIS_fnc_infoText; 
 		
