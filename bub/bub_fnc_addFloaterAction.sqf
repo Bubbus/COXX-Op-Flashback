@@ -14,9 +14,9 @@ _onReleaseClamps =
 	_floater, 
 	
 	[
-		"<t color='#FFFFFF'>Release vehicle clamps</t>
+		"<t color='#FFFFAA'>Release vehicle clamps</t>
 <br/>
-<t color='#AAAAAA'>(only use when beached)</t>", 
+<t color='#AAAA88'>(only use when beached)</t>", 
 		_onReleaseClamps,
 		nil, 
 		6, 

@@ -11,19 +11,19 @@
 ["GrpNATO_CO",_hq, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_COV",_ifv, "COV", "ColorYellow"] spawn f_fnc_localGroupMarker;
 
-["GrpNATO_ASL",_hq, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
-["GrpNATO_A1",_ft, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
-["GrpNATO_A2",_ft, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
+["GrpNATO_ASL",_hq, "A-SL", "ColorRed"] spawn f_fnc_localGroupMarker;
+["GrpNATO_A1",_ft, "A-1", "ColorRed"] spawn f_fnc_localGroupMarker;
+["GrpNATO_A2",_ft, "A-2", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_AV",_ifv, "AV", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-["GrpNATO_BSL",_hq, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
-["GrpNATO_B1",_ft, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
-["GrpNATO_B2",_ft, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["GrpNATO_BSL",_hq, "B-SL", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["GrpNATO_B1",_ft, "B-1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["GrpNATO_B2",_ft, "B-2", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_BV",_ifv, "BV", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
-["GrpNATO_CSL",_hq, "CSL", "ColorGreen"] spawn f_fnc_localGroupMarker;
-["GrpNATO_C1",_ft, "C1", "ColorGreen"] spawn f_fnc_localGroupMarker;
-["GrpNATO_C2",_ft, "C2", "ColorGreen"] spawn f_fnc_localGroupMarker;
+["GrpNATO_CSL",_hq, "C-SL", "ColorGreen"] spawn f_fnc_localGroupMarker;
+["GrpNATO_C1",_ft, "C-1", "ColorGreen"] spawn f_fnc_localGroupMarker;
+["GrpNATO_C2",_ft, "C-2", "ColorGreen"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_CV",_ifv, "CV", "ColorGreen"] spawn f_fnc_localGroupMarker;
 
 ["GrpNATO_MMG1",_sup, "MMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
@@ -41,7 +41,8 @@
 
 ["GrpNATO_IFV1",_ifv, "IFV1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_IFV2",_ifv, "IFV2", "ColorOrange"] spawn f_fnc_localGroupMarker;
-["GrpNATO_TNK1",_tnk, "TNK1", "ColorRed"] spawn f_fnc_localGroupMarker;
+["GrpNATO_TNK1",_tnk, "Hammer 1", "ColorRed"] spawn f_fnc_localGroupMarker;
+["GrpNATO_TNK2",_tnk, "Hammer 2", "ColorRed"] spawn f_fnc_localGroupMarker;
 
 ["GrpNATO_TH1",_hel, "TH1", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_TH2",_hel, "TH2", "ColorRed"] spawn f_fnc_localGroupMarker;
