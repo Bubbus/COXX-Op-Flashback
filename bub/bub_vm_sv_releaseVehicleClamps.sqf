@@ -13,8 +13,19 @@ if !(_alreadyReleased) then
 	_clampedFront = _floater getVariable ["clamped_front", objNull];
 	_clampedRear = _floater getVariable ["clamped_rear", objNull];
 
-	detach _clampedFront;
-	detach _clampedRear;
+	if (!isNull _clampedFront) then 
+	{
+		//_clampedFront enableSimulationGlobal true;
+		_clampedFront setDir 0;
+		detach _clampedFront;
+	};
+	
+	if (!isNull _clampedRear) then 
+	{
+		//_clampedRear enableSimulationGlobal true;
+		_clampedRear setDir 0;
+		detach _clampedRear;
+	};
 	
 };
 
