@@ -630,6 +630,10 @@ class CfgFunctions
 			{
 				file = "bub\bub_fnc_addGroupToZeus.sqf";
 			};
+			class fixFloaterOrientation
+			{
+				file = "bub\bub_fnc_fixFloaterOrientation.sqf";
+			};
 		};
 	};
 };
