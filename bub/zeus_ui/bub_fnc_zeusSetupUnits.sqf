@@ -19,12 +19,12 @@ _units =
 		
 			[
 				"German Squad 6x",
-				["sl","ar","aar","smg","rif","rif"]
+				["sl","ar","aar","smg","rif","lat"]
 			],
 			
 			[
 				"German Squad 10x",
-				["sl","ar","aar","aar","smg","rif","rif","rif","rif","rif"]
+				["sl","ar","aar","aar","smg","rif","rif","rif","lat","lat"]
 			]
 		]
 	], 
