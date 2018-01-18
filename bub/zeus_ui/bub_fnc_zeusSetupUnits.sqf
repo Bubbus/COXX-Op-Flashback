@@ -25,7 +25,12 @@ _units =
 			[
 				"German Squad 10x",
 				["sl","ar","aar","aar","smg","rif","rif","rif","lat","lat"]
-			]
+			],
+			
+			[
+				"Hitler oh nooooo",
+				["hitler"]
+			],
 		]
 	], 
 	
@@ -76,6 +81,18 @@ _units =
 				"Panzer IV",
 				"LIB_PzKpfwIV_H",
 				["crew-smg","crew","crew"]
+			],
+			
+			[
+				"PaK 40 (Static AT)",
+				"LIB_Pak40",
+				["sl","smg","lat"]
+			],
+			
+			[
+				"GrWr 34 (Mortar)",
+				"LIB_GrWr34",
+				["sl","smg"]
 			]
 		]
 	]
