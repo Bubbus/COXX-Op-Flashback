@@ -14,12 +14,12 @@
 ["GrpNATO_ASL",_hq, "A-SL", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_A1",_ft, "A-1", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_A2",_ft, "A-2", "ColorRed"] spawn f_fnc_localGroupMarker;
-["GrpNATO_AV",_ifv, "AV", "ColorRed"] spawn f_fnc_localGroupMarker;
+["GrpNATO_A3",_ft, "A-3", "ColorRed"] spawn f_fnc_localGroupMarker;
 
 ["GrpNATO_BSL",_hq, "B-SL", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_B1",_ft, "B-1", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_B2",_ft, "B-2", "ColorBlue"] spawn f_fnc_localGroupMarker;
-["GrpNATO_BV",_ifv, "BV", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["GrpNATO_B3",_ft, "B-3", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
 ["GrpNATO_CSL",_hq, "C-SL", "ColorGreen"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_C1",_ft, "C-1", "ColorGreen"] spawn f_fnc_localGroupMarker;
