@@ -30,7 +30,7 @@ _units =
 			[
 				"Hitler oh nooooo",
 				["hitler"]
-			],
+			]
 		]
 	], 
 	

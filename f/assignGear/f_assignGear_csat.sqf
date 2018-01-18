@@ -624,7 +624,7 @@ switch (_typeofUnit) do
 		_unit setUnitLoadout [[],[],["LIB_P08","","","",["LIB_8Rnd_9x19_P08",8],[],""],["U_LIB_GER_Hauptmann",[["FirstAidKit",1],["ACE_Banana",1],["LIB_8Rnd_9x19_P08",1,8]]],[],[],"H_LIB_GER_OfficerCap","G_LIB_GER_Gloves4",[],["ItemMap","","ItemRadio","","ItemWatch",""]];
 		[_unit, "WhiteHead_13"] remoteExec ["setFace", 0, true];
 	
-	}
+	};
 	
 	
 
